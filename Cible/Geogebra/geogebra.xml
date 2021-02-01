@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.564.0" app="classic" platform="offline" id="F8CC0F27-B8DA-4A56-8A78-FBF8EF5DF9CA"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1280" height="658" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="100,100,700,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1011" window="100,100,600,400" />
+		<view id="2" visible="true" inframe="false" stylebar="false" location="3" size="261" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="43" visible="false" inframe="false" stylebar="false" location="1" size="450" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1010" height="604"/>
+	<coordSystem xZero="424.48989358105575" yZero="306.53606598479956" scale="254.91069434342623" yscale="254.91069434342657"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<algebraView>
+	<mode val="3"/>
+</algebraView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="A" exp="(0; 0°)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0" y="0" z="1"/>
+	<coordStyle style="polar"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="1"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circumference">
+	<input a0="c"/>
+	<output a0="circonférencec"/>
+</command>
+<element type="numeric" label="circonférencec">
+	<value val="6.283185307179586"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="PointIn">
+	<input a0="c"/>
+	<output a0="Pointc"/>
+</command>
+<element type="point" label="Pointc">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.9890787994423826" y="0.022481200557614267" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.04"/>
+	<output a0="d"/>
+</command>
+<element type="conic" label="d">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="80" y="3"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.0016" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.09"/>
+	<output a0="e"/>
+</command>
+<element type="conic" label="e">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.0081" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.58"/>
+	<output a0="f"/>
+</command>
+<element type="conic" label="f">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.3364" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.63"/>
+	<output a0="g"/>
+</command>
+<element type="conic" label="g">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.39690000000000003" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.95"/>
+	<output a0="h"/>
+</command>
+<element type="conic" label="h">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.9025" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="A" a1="0.006763062765635995"/>
+	<output a0="k"/>
+</command>
+<element type="conic" label="k">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.00004573901797193199" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Intersect">
+	<input a0="c" a1="yAxis" a2="2"/>
+	<output a0="B"/>
+</command>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="1" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B" a1="18°" a2="A"/>
+	<output a0="B&apos;"/>
+</command>
+<element type="point" label="B&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.3090169943749474" y="0.9510565162951535" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;" a1="18°" a2="A"/>
+	<output a0="B&apos;&apos;"/>
+</command>
+<element type="point" label="B&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.587785252292473" y="0.8090169943749473" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="B&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="B&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8090169943749472" y="0.5877852522924731" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="C"/>
+</command>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9510565162951534" y="0.30901699437494756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="c" a1="xAxis" a2="1"/>
+	<output a0="D"/>
+</command>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="c" a1="yAxis" a2="1"/>
+	<output a0="E"/>
+</command>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-1" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="c" a1="xAxis" a2="2"/>
+	<output a0="F"/>
+</command>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D" a1="18°" a2="A"/>
+	<output a0="D&apos;"/>
+</command>
+<element type="point" label="D&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9510565162951535" y="-0.3090169943749474" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;" a1="18°" a2="A"/>
+	<output a0="D&apos;&apos;"/>
+</command>
+<element type="point" label="D&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8090169943749473" y="-0.587785252292473" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="D&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="D&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.5877852522924731" y="-0.8090169943749472" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="G"/>
+</command>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.30901699437494756" y="-0.9510565162951534" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="E" a1="18°" a2="A"/>
+	<output a0="E&apos;"/>
+</command>
+<element type="point" label="E&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.3090169943749474" y="-0.9510565162951535" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="E&apos;" a1="18°" a2="A"/>
+	<output a0="E&apos;&apos;"/>
+</command>
+<element type="point" label="E&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.587785252292473" y="-0.8090169943749473" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="E&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="E&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="E&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8090169943749472" y="-0.5877852522924731" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="E&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="H"/>
+</command>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.9510565162951534" y="-0.30901699437494756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="F" a1="18°" a2="A"/>
+	<output a0="F&apos;"/>
+</command>
+<element type="point" label="F&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.9510565162951535" y="0.3090169943749474" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="F&apos;" a1="18°" a2="A"/>
+	<output a0="F&apos;&apos;"/>
+</command>
+<element type="point" label="F&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8090169943749473" y="0.587785252292473" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="F&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="F&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="F&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5877852522924731" y="0.8090169943749472" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="F&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="I"/>
+</command>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.30901699437494756" y="0.9510565162951534" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="e" a1="yAxis" a2="2"/>
+	<output a0="J"/>
+</command>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0.09" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="J" a1="18°" a2="A"/>
+	<output a0="J&apos;"/>
+</command>
+<element type="point" label="J&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.027811529493745265" y="0.08559508646656382" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="J&apos;" a1="18°" a2="A"/>
+	<output a0="J&apos;&apos;"/>
+</command>
+<element type="point" label="J&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.05290067270632257" y="0.07281152949374525" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="J&apos;" a1="A" a2="J&apos;&apos;"/>
+	<output a0="α"/>
+</command>
+<element type="angle" label="α">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589794"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="J&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="J&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="J&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.07281152949374525" y="0.052900672706322566" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="J&apos;&apos;" a1="A" a2="J&apos;&apos;&apos;"/>
+	<output a0="β"/>
+</command>
+<element type="angle" label="β">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="J&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="K"/>
+</command>
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.0855950864665638" y="0.02781152949374526" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="J&apos;&apos;&apos;" a1="A" a2="K"/>
+	<output a0="γ"/>
+</command>
+<element type="angle" label="γ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="K" a1="18°" a2="A"/>
+	<output a0="K&apos;"/>
+</command>
+<element type="point" label="K&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.08999999999999997" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="K" a1="A" a2="K&apos;"/>
+	<output a0="δ"/>
+</command>
+<element type="angle" label="δ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="K&apos;" a1="18°" a2="A"/>
+	<output a0="K&apos;&apos;"/>
+</command>
+<element type="point" label="K&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.08559508646656379" y="-0.027811529493745255" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="K&apos;" a1="A" a2="K&apos;&apos;"/>
+	<output a0="ε"/>
+</command>
+<element type="angle" label="ε">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="K&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="K&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="K&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.07281152949374524" y="-0.05290067270632255" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="K&apos;&apos;" a1="A" a2="K&apos;&apos;&apos;"/>
+	<output a0="ζ"/>
+</command>
+<element type="angle" label="ζ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="K&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="L"/>
+</command>
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.052900672706322566" y="-0.07281152949374523" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="K&apos;&apos;&apos;" a1="A" a2="L"/>
+	<output a0="η"/>
+</command>
+<element type="angle" label="η">
+	<angleStyle val="0"/>
+	<value val="0.31415926535897926"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="L" a1="18°" a2="A"/>
+	<output a0="L&apos;"/>
+</command>
+<element type="point" label="L&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.02781152949374527" y="-0.08559508646656377" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="L" a1="A" a2="L&apos;"/>
+	<output a0="θ"/>
+</command>
+<element type="angle" label="θ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;" a1="18°" a2="A"/>
+	<output a0="L&apos;&apos;"/>
+</command>
+<element type="point" label="L&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.734723475976807e-17" y="-0.08999999999999994" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="L&apos;" a1="A" a2="L&apos;&apos;"/>
+	<output a0="ι"/>
+</command>
+<element type="angle" label="ι">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="L&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="L&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.02781152949374523" y="-0.08559508646656376" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="L&apos;&apos;" a1="A" a2="L&apos;&apos;&apos;"/>
+	<output a0="κ"/>
+</command>
+<element type="angle" label="κ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="M"/>
+</command>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.052900672706322524" y="-0.07281152949374521" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="L&apos;&apos;&apos;" a1="A" a2="M"/>
+	<output a0="λ"/>
+</command>
+<element type="angle" label="λ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="M" a1="18°" a2="A"/>
+	<output a0="M&apos;"/>
+</command>
+<element type="point" label="M&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="11" y="15"/>
+	<labelMode val="0"/>
+	<coords x="0.0728115294937452" y="-0.05290067270632254" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="M" a1="A" a2="M&apos;"/>
+	<output a0="μ"/>
+</command>
+<element type="angle" label="μ">
+	<angleStyle val="0"/>
+	<value val="0.31415926535897937"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="M" a1="18°" a2="A"/>
+	<output a0="M&apos;_1"/>
+</command>
+<element type="point" label="M&apos;_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="44" y="21"/>
+	<labelMode val="0"/>
+	<coords x="0.0728115294937452" y="-0.05290067270632254" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="M" a1="A" a2="M&apos;_1"/>
+	<output a0="ν"/>
+</command>
+<element type="angle" label="ν">
+	<angleStyle val="0"/>
+	<value val="0.31415926535897937"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="M&apos;" a1="18°" a2="A"/>
+	<output a0="M&apos;&apos;"/>
+</command>
+<element type="point" label="M&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.08559508646656373" y="-0.02781152949374525" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="M&apos;" a1="A" a2="M&apos;&apos;"/>
+	<output a0="ξ"/>
+</command>
+<element type="angle" label="ξ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="M&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="M&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="M&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.0899999999999999" y="-1.0408340855860843e-17" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="M&apos;&apos;" a1="A" a2="M&apos;&apos;&apos;"/>
+	<output a0="ο"/>
+</command>
+<element type="angle" label="ο">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="M&apos;&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="N"/>
+</command>
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.08559508646656372" y="0.027811529493745223" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="M&apos;&apos;&apos;" a1="A" a2="N"/>
+	<output a0="ρ"/>
+</command>
+<element type="angle" label="ρ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="N" a1="18°" a2="A"/>
+	<output a0="N&apos;"/>
+</command>
+<element type="point" label="N&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.07281152949374517" y="0.0529006727063225" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="N" a1="A" a2="N&apos;"/>
+	<output a0="σ"/>
+</command>
+<element type="angle" label="σ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589794"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="N&apos;" a1="18°" a2="A"/>
+	<output a0="N&apos;&apos;"/>
+</command>
+<element type="point" label="N&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.05290067270632251" y="0.07281152949374516" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="N&apos;" a1="A" a2="N&apos;&apos;"/>
+	<output a0="τ"/>
+</command>
+<element type="angle" label="τ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Rotate">
+	<input a0="N&apos;&apos;" a1="18°" a2="A"/>
+	<output a0="N&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="N&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.027811529493745234" y="0.08559508646656369" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="N&apos;&apos;" a1="A" a2="N&apos;&apos;&apos;"/>
+	<output a0="υ"/>
+</command>
+<element type="angle" label="υ">
+	<angleStyle val="0"/>
+	<value val="0.31415926535897937"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Segment">
+	<input a0="I" a1="N&apos;&apos;&apos;"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8654614298285898" y="-0.28120546488120235" z="6.938893903907228e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="F" a1="M&apos;&apos;&apos;"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.0408340855860843e-17" y="-0.9100000000000001" z="-1.0408340855860843e-17"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="F&apos;" a1="N"/>
+	<output a0="l"/>
+</command>
+<element type="segment" label="l">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.2812054648812022" y="-0.8654614298285899" z="-6.938893903907228e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="F&apos;&apos;" a1="N&apos;"/>
+	<output a0="m"/>
+</command>
+<element type="segment" label="m">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5348845795861505" y="-0.7362054648812022" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="F&apos;&apos;&apos;" a1="N&apos;&apos;"/>
+	<output a0="n"/>
+</command>
+<element type="segment" label="n">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.7362054648812021" y="-0.5348845795861507" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="H" a1="M&apos;&apos;"/>
+	<output a0="p"/>
+</command>
+<element type="segment" label="p">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.2812054648812023" y="-0.8654614298285896" z="6.938893903907228e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="E&apos;&apos;&apos;" a1="M&apos;"/>
+	<output a0="q"/>
+</command>
+<element type="segment" label="q">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.5348845795861505" y="-0.736205464881202" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="E&apos;&apos;" a1="M"/>
+	<output a0="r"/>
+</command>
+<element type="segment" label="r">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.7362054648812021" y="-0.5348845795861505" z="-6.938893903907228e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="E&apos;" a1="L&apos;&apos;&apos;"/>
+	<output a0="s"/>
+</command>
+<element type="segment" label="s">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8654614298285898" y="-0.2812054648812022" z="-1.3877787807814457e-17"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="E" a1="L&apos;&apos;"/>
+	<output a0="t"/>
+</command>
+<element type="segment" label="t">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.91" y="-1.734723475976807e-17" z="-1.734723475976807e-17"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="G" a1="L&apos;"/>
+	<output a0="a"/>
+</command>
+<element type="segment" label="a">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8654614298285896" y="0.2812054648812023" z="3.469446951953614e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="D&apos;&apos;&apos;"/>
+	<output a0="b"/>
+</command>
+<element type="segment" label="b">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.736205464881202" y="-0.5348845795861505" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="K&apos;&apos;" a1="D&apos;"/>
+	<output a0="f_1"/>
+</command>
+<element type="segment" label="f_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.2812054648812021" y="-0.8654614298285898" z="3.469446951953614e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="C"/>
+	<output a0="h_1"/>
+</command>
+<element type="segment" label="h_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.2812054648812023" y="-0.8654614298285896" z="-1.734723475976807e-17"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="K&apos;" a1="D"/>
+	<output a0="i_1"/>
+</command>
+<element type="segment" label="i_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-0.91" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="J&apos;&apos;&apos;" a1="B&apos;&apos;&apos;"/>
+	<output a0="j_1"/>
+</command>
+<element type="segment" label="j_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.5348845795861505" y="-0.736205464881202" z="-1.3877787807814457e-17"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="J&apos;&apos;" a1="B&apos;&apos;"/>
+	<output a0="k_1"/>
+</command>
+<element type="segment" label="k_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.7362054648812021" y="-0.5348845795861504" z="-6.938893903907228e-18"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="J" a1="B"/>
+	<output a0="l_1"/>
+</command>
+<element type="segment" label="l_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.91" y="0" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="J&apos;" a1="B&apos;"/>
+	<output a0="m_1"/>
+</command>
+<element type="segment" label="m_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8654614298285898" y="-0.2812054648812021" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="c" a1="f_1" a2="1"/>
+	<output a0="O"/>
+</command>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9510565162951534" y="-0.30901699437494734" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O" a1="18°" a2="K&apos;&apos;"/>
+	<output a0="O&apos;"/>
+</command>
+<element type="point" label="O&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.8218005513477659" y="-0.5626961090798955" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="O" a1="K&apos;&apos;" a2="O&apos;"/>
+	<output a0="ϕ"/>
+</command>
+<element type="angle" label="ϕ">
+	<angleStyle val="0"/>
+	<value val="0.31415926535897915"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.00006971007591590347" y="-0.002607712334614712" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="K&apos;&apos;" a1="18°" a2="P"/>
+	<output a0="K&apos;&apos;&apos;_1"/>
+</command>
+<element type="point" label="K&apos;&apos;&apos;_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.073620768775547" y="-0.05300676163434151" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Angle">
+	<input a0="K&apos;&apos;" a1="P" a2="K&apos;&apos;&apos;_1"/>
+	<output a0="χ"/>
+</command>
+<element type="angle" label="χ">
+	<angleStyle val="0"/>
+	<value val="0.3141592653589793"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Segment">
+	<input a0="O&apos;" a1="K&apos;&apos;&apos;_1"/>
+	<output a0="g_1"/>
+</command>
+<element type="segment" label="g_1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.509689347445554" y="0.7481797825722188" z="0.0021348657987904918"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+</construction>
+</geogebra>
