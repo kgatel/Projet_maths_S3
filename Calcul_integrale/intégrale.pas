@@ -4,7 +4,7 @@ uses crt;
 var sigma,mx,my,r,teta,rmin,rmax,tetamin,tetamax,x1,x2,x3,x4,y1,y2,volume,trapeze,pave,fmin,fmax,Aire,VTOT: real;
 	i,j,N : integer;
 	fichier : text;
-const 	adresse ='Valeurs.txt';
+const adresse ='Valeurs.txt';
 
 function f(sigma,mx,my,r,teta : real) : real;
 
